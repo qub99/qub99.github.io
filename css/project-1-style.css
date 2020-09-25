@@ -40,7 +40,7 @@
     h1,
     h2,
     nav a {
-        font-family:'raleway', cursive;
+        font-family:'raleway';
     }
     
     h2 {
@@ -79,7 +79,7 @@
         font-size:2rem;
         font-weight:normal;
         text-decoration: none;
-        color:#FEE;
+        color:rgb(253, 253, 249);
         margin:.5%;
         padding:1rem 1.25rem;
         background-color:#333;
@@ -89,7 +89,7 @@
     .nav-top a:focus,
     .nav-top a:hover,
     .nav-top a:active {
-        background-color:#7B7A82;
+        background-color:#e4e4c5;
         text-shadow:none;
     }
             
@@ -187,7 +187,7 @@
             margin-bottom:1rem;
             background-color:inherit;
             color:#333;
-            border-bottom:15px double #516488;
+            border-bottom:15px single bisque;
         }
     }
     
