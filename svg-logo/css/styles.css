@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#FCFEE5;
+    box-shadow: 15px 20px 4px #888888;
+}
+
+.page-header {
+    margin:0;
+}
+
+.svg {
+    margin:0;
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.svg img {
+    display:block;
+    margin:auto;
+    width:100%;
+    max-width:1200px;
+}
+
+@media (min-width:1200px) {
+    
+    .svg img {
+        border:2px solid #333;
+    }
+}
