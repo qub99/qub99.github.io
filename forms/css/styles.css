@@ -180,11 +180,11 @@ fieldset {
 }
 
 .form input[type=submit] {
-    background-color:#5c3335;
+    background-color:#B39998;
 }
 
 .form input[type=reset] {
-    background-color:#37423d;
+    background-color:#B38FAC;
 }
 
 .form input[type=submit],
