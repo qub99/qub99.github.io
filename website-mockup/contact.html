@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Quinn Blocker">
+        <title>Intelligensia form</title>
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <header class="page-head">
+        <div class="top-bar">
+            <div class="media">
+                <a href="https://www.facebook.com">
+                    <img src="images/facebook.svg" alt="facebook icon">
+                </a>
+                <a href="https://www.twitter.com">
+                    <img src="images/twitter.svg" alt="twitter icon">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="images/instagram.svg" alt="instagram icon">
+                </a>
+            </div>
+            <form class="search-bar">
+                <input class="search-box" type="search" placeholder="Find...">
+                <input class="search-icon" type="image" src="images/loupe.svg" alt="search">
+            </form>
+            <p class="checkout-login">
+                <a href="#">
+                    <img src="images/shopping-cart.svg" alt="shopping cart icon">
+                </a>
+                <a href="#">Login/Register</a>
+            </p>
+        </div>
+        <div class="logo">
+            <a href="home.html">
+                <img src="images/project 4 drawing.svg" alt="Intelligensia logo">
+            </a>
+        </div>
+        <p class="sub-head">Outdoor Exploration</p>
+    </header>
+    <main>
+        <form action="/action_page.php" class="form">
+            <fieldset class="fname">
+                <label for="fname">First Name</label> 
+                <input type="text" id="fname" name="firstname" required="">
+            </fieldset>
+            
+            <fieldset class="lname">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" required="">
+            </fieldset>
+            
+            <fieldset class="email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required="">
+            </fieldset>
+
+            <fieldset class="phone-number">
+                <label for="phone">Phone number</label>
+                <input type="tel" id="phone" name="phone"   required="">
+            </fieldset>
+                
+            <fieldset class="comments">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="subject"></textarea>
+            </fieldset>
+            
+            <fieldset class="privacy">
+                <label for="privacy">By clicking Submit, I agree to the terms and conditions of this: </label>
+            </fieldset>
+
+            <fieldset class="privacy1">
+                <label for="privacy1"><a href="#">Terms of Use</a></label>
+                <input type="checkbox" id="privacy1" name="Terms of Use" required="">
+            </fieldset>
+
+            <fieldset class="privacy2">
+                <label for="privacy2"><a href="#">Privacy Policy</a></label>
+                <input type="checkbox" id="privacy2" name="privacy2" required="">
+            </fieldset>
+
+            <fieldset class="submit-reset">
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>    
+      </form>   
+    </main>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <a href="#">About Us</a>
+            <a href="#">Mission</a>
+            <a href="#">locations</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <p class="copyright">© 2020 <a href="mailto:info.Intelligensia.com">Intelligensia, Co-op.</a></p>
+        <p class="address">3517 Stutler LN. Altoona, PA 16601</p>
+    </footer>
+</body>
+</html>
